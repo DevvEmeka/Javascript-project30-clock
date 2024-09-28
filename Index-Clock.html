@@ -25,7 +25,7 @@
 
         const seconds = now.getSeconds();
         const secondsDegrees = ((seconds / 60) * 360) + 90;
-        secondHand.style.color = white; /*`rotate(${secondsDegrees}deg)`; */
+        secondHand.style.color = `rotate(${secondsDegrees}deg)`
 
         const mins = now.getMinutes()
         const minsDegrees = ((mins / 60) * 360) + 90;
