@@ -39,7 +39,7 @@ html {
 
   .hand {
     width: 50%;
-    height: 2px;
+    height: 6px;
     background: black;
     position: absolute;
     top: 50%;
